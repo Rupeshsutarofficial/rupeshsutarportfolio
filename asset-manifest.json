@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rupeshsutarportfolio/static/css/main.fb00b7d6.css",
-    "main.js": "/rupeshsutarportfolio/static/js/main.8c53414a.js",
+    "main.js": "/rupeshsutarportfolio/static/js/main.4d2da016.js",
     "static/media/profile.jpg": "/rupeshsutarportfolio/static/media/profile.215b21c04874b987d1f9.jpg",
     "static/media/work1.jpg": "/rupeshsutarportfolio/static/media/work1.4953b291af685b3aca1a.jpg",
     "static/media/about.jpg": "/rupeshsutarportfolio/static/media/about.756102ba8e9a56813cd9.jpg",
@@ -9,16 +9,16 @@
     "static/media/work3.jpg": "/rupeshsutarportfolio/static/media/work3.f698210e88eae86dc073.jpg",
     "static/media/work4.jpg": "/rupeshsutarportfolio/static/media/work4.dc30c5c3517788bda581.jpg",
     "static/media/work5.jpg": "/rupeshsutarportfolio/static/media/work5.2978a307788f0de9b6dc.jpg",
-    "static/media/Rupesh-Sutar.pdf": "/rupeshsutarportfolio/static/media/Rupesh-Sutar.68d0f099f79650ac397e.pdf",
+    "static/media/Rupesh-Sutar-Resume.pdf": "/rupeshsutarportfolio/static/media/Rupesh-Sutar-Resume.b3f3eafb1c4cb3b542e6.pdf",
     "static/media/testimonial3.png": "/rupeshsutarportfolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
     "static/media/testimonial2.png": "/rupeshsutarportfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
     "static/media/testimonial1.png": "/rupeshsutarportfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
     "index.html": "/rupeshsutarportfolio/index.html",
     "main.fb00b7d6.css.map": "/rupeshsutarportfolio/static/css/main.fb00b7d6.css.map",
-    "main.8c53414a.js.map": "/rupeshsutarportfolio/static/js/main.8c53414a.js.map"
+    "main.4d2da016.js.map": "/rupeshsutarportfolio/static/js/main.4d2da016.js.map"
   },
   "entrypoints": [
     "static/css/main.fb00b7d6.css",
-    "static/js/main.8c53414a.js"
+    "static/js/main.4d2da016.js"
   ]
 }
