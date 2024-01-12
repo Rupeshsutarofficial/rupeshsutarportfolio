@@ -3,6 +3,7 @@ import Work2 from "../../assets/work2.jpg"
 import Work3 from "../../assets/work3.jpg"
 import Work4 from "../../assets/work4.jpg"
 import Work5 from "../../assets/work5.jpg"
+import Work6 from "../../assets/work6.jpg"
 
 export const projectsData = [
     {
@@ -40,6 +41,13 @@ export const projectsData = [
       category: "web",
       demoLink:'https://rupeshsutarofficial.github.io/Cynthia-Ugwu-Clone/'
     },
+    {
+      id: 6,
+      image: Work6,
+      title: "Modern Landing Page",
+      category: "web",
+      demoLink:'https://rupeshsutarofficial.github.io/Modern-Landing-Page/'
+    },
    
   ];
   
@@ -49,11 +57,11 @@ export const projectsData = [
     },
     {
         name:'web',
-    },
-    {
-        name:'Thumbnails',
-    },
-    {
-        name:'Video Editing',
-    },
+    }
+    // {
+    //     name:'Thumbnails',
+    // },
+    // {
+    //     name:'Video Editing',
+    // },
   ]

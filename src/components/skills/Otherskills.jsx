@@ -23,7 +23,7 @@ const Otherskills = () => {
         </div>
 
         <div className="skills__data">
-        <i class='bx bxl-youtube'></i>
+         <i class='bx bxl-youtube'></i>
           <div>
             <h3 className="skills__name">Thumbnail Desginer</h3>
             <span className="skills__level">Advanced</span>
