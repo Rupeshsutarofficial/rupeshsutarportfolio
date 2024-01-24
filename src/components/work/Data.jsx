@@ -6,6 +6,9 @@ import Work5 from "../../assets/work5.jpg"
 import Work6 from "../../assets/work6.jpg"
 import Work7 from "../../assets/work7.jpg"
 import Work8 from "../../assets/work8.jpg"
+import Work9 from "../../assets/work9.png"
+import Work10 from "../../assets/work9.png"
+import Teslabot from "../../assets/teslabot.jpg"
 
 export const projectsData = [
     {
@@ -71,6 +74,22 @@ export const projectsData = [
       category: "Figma",
       demoLink:Work8,
       figmaLink:'https://www.figma.com/file/iHdeo4nE2oqfYeRvwsTmZV/Modern-Web-Design?type=design&node-id=5%3A9&mode=design&t=p889OwWrD9Fdi4VM-1'
+    },
+    {
+      id: 9,
+      image: Work9,
+      title: "Tesla Bot • Optimus-Gen 2",
+      category: "Web",
+      demoLink:'https://rupeshsutarofficial.github.io/Tesla-Bot-Optimus-Gen-2/',
+      githubLink:'https://github.com/Rupeshsutarofficial/Tesla-Bot-Optimus-Gen-2'
+    },
+    {
+      id: 10,
+      image: Work10,
+      title: "Tesla Bot • Optimus-Gen 2 Figma",
+      category: "Figma",
+      demoLink:Teslabot,
+      figmaLink:'https://www.figma.com/file/F1KKkZIvujtXUvmEyZQtOt/Tesla-Bot?type=design&node-id=1%3A2&mode=design&t=yI7njFsWpfDJQ4oO-1'
     },
    
   ];

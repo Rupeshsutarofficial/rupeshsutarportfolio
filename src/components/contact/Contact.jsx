@@ -30,7 +30,7 @@ const Contact = () => {
               <h3 className="contact__card-title">Gmail</h3>
               <span className="contact__card-data">rupeshsutarofficial@gmail.com</span>
 
-              <a href="mailto:rupeshsutarofficial@gmail.com" className="contact__button">
+              <a href="mailto:rupeshsutarofficial@gmail.com" className="contact__button magnet-target">
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -41,7 +41,7 @@ const Contact = () => {
               <h3 className="contact__card-title">Instagram</h3>
               <span className="contact__card-data">@mr.rupeshsutar</span>
 
-              <a href="https://www.instagram.com/mr.rupeshsutar/" className="contact__button">
+              <a href="https://www.instagram.com/mr.rupeshsutar/" className="contact__button magnet-target">
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -52,7 +52,7 @@ const Contact = () => {
               <h3 className="contact__card-title">Linkedin</h3>
               <span className="contact__card-data">@rupeshsutarofficial</span>
 
-              <a href="https://www.linkedin.com/in/rupeshsutarofficial/" className="contact__button">
+              <a href="https://www.linkedin.com/in/rupeshsutarofficial/" className="contact__button magnet-target">
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -97,7 +97,7 @@ const Contact = () => {
                 placeholder="Write your project"
               ></textarea>
             </div>
-            <button className="button button--flex" style={{ marginLeft: '18%' }}>
+            <button className="button button--flex magnet-target" style={{ marginLeft: '18%' }}>
               Send Message
               <svg
                 class="button__icon"

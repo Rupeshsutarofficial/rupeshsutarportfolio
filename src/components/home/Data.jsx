@@ -59,7 +59,7 @@ const Data = () => {
       <p className="home__description">
       Driven Full Stack Developer Passionately Crafting Digital Innovations!
       </p>
-      <a href="#contact" className="button button--flex say-hello">
+      <a href="#contact" className="button button--flex say-hello magnet-target">
         Say hello
         <svg
           class="button__icon"
