@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rupeshsutarportfolio/static/css/main.892a7a66.css",
-    "main.js": "/rupeshsutarportfolio/static/js/main.f806ebbe.js",
+    "main.css": "/rupeshsutarportfolio/static/css/main.2dafc7e2.css",
+    "main.js": "/rupeshsutarportfolio/static/js/main.31dfc271.js",
     "static/media/profile.jpg": "/rupeshsutarportfolio/static/media/profile.215b21c04874b987d1f9.jpg",
     "static/media/teslabot.jpg": "/rupeshsutarportfolio/static/media/teslabot.05bc0814cdf3fe4cdf1f.jpg",
     "static/media/work7.jpg": "/rupeshsutarportfolio/static/media/work7.2a4d947dcef7fb5a8591.jpg",
@@ -21,11 +21,11 @@
     "static/media/fragment.glsl": "/rupeshsutarportfolio/static/media/fragment.e84f6d3509cbff462050.glsl",
     "static/media/vertex.glsl": "/rupeshsutarportfolio/static/media/vertex.d78b86e2e4667824ec92.glsl",
     "index.html": "/rupeshsutarportfolio/index.html",
-    "main.892a7a66.css.map": "/rupeshsutarportfolio/static/css/main.892a7a66.css.map",
-    "main.f806ebbe.js.map": "/rupeshsutarportfolio/static/js/main.f806ebbe.js.map"
+    "main.2dafc7e2.css.map": "/rupeshsutarportfolio/static/css/main.2dafc7e2.css.map",
+    "main.31dfc271.js.map": "/rupeshsutarportfolio/static/js/main.31dfc271.js.map"
   },
   "entrypoints": [
-    "static/css/main.892a7a66.css",
-    "static/js/main.f806ebbe.js"
+    "static/css/main.2dafc7e2.css",
+    "static/js/main.31dfc271.js"
   ]
 }
