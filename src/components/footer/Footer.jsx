@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="footer__social">
           <a
             href="https://www.instagram.com/mr.rupeshsutar/"
-            className="footer__social-link magnet-target"
+            className="footer__social-link "
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -36,7 +36,7 @@ const Footer = () => {
           </a>
           <a
             href="https://www.linkedin.com/in/rupeshsutarofficial/"
-            className="footer__social-link magnet-target"
+            className="footer__social-link "
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -44,7 +44,7 @@ const Footer = () => {
           </a>
           <a
             href="https://github.com/Rupeshsutarofficial"
-            className="footer__social-link magnet-target"
+            className="footer__social-link "
             target="_blank"
             rel="noopener noreferrer"
           >
