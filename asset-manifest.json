@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/rupeshsutarportfolio/static/css/main.b9bfcb02.css",
-    "main.js": "/rupeshsutarportfolio/static/js/main.86dbc95c.js",
+    "main.css": "/rupeshsutarportfolio/static/css/main.892a7a66.css",
+    "main.js": "/rupeshsutarportfolio/static/js/main.f806ebbe.js",
     "static/media/profile.jpg": "/rupeshsutarportfolio/static/media/profile.215b21c04874b987d1f9.jpg",
+    "static/media/teslabot.jpg": "/rupeshsutarportfolio/static/media/teslabot.05bc0814cdf3fe4cdf1f.jpg",
     "static/media/work7.jpg": "/rupeshsutarportfolio/static/media/work7.2a4d947dcef7fb5a8591.jpg",
+    "static/media/work9.png": "/rupeshsutarportfolio/static/media/work9.5e0aca0206483f8a0c1c.png",
     "static/media/work1.jpg": "/rupeshsutarportfolio/static/media/work1.4953b291af685b3aca1a.jpg",
     "static/media/work8.jpg": "/rupeshsutarportfolio/static/media/work8.48ccd3fdd8d7d47d0a5e.jpg",
     "static/media/work6.jpg": "/rupeshsutarportfolio/static/media/work6.ab80aa48958d187a5851.jpg",
@@ -16,12 +18,14 @@
     "static/media/testimonial3.png": "/rupeshsutarportfolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
     "static/media/testimonial2.png": "/rupeshsutarportfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
     "static/media/testimonial1.png": "/rupeshsutarportfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "static/media/fragment.glsl": "/rupeshsutarportfolio/static/media/fragment.e84f6d3509cbff462050.glsl",
+    "static/media/vertex.glsl": "/rupeshsutarportfolio/static/media/vertex.d78b86e2e4667824ec92.glsl",
     "index.html": "/rupeshsutarportfolio/index.html",
-    "main.b9bfcb02.css.map": "/rupeshsutarportfolio/static/css/main.b9bfcb02.css.map",
-    "main.86dbc95c.js.map": "/rupeshsutarportfolio/static/js/main.86dbc95c.js.map"
+    "main.892a7a66.css.map": "/rupeshsutarportfolio/static/css/main.892a7a66.css.map",
+    "main.f806ebbe.js.map": "/rupeshsutarportfolio/static/js/main.f806ebbe.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9bfcb02.css",
-    "static/js/main.86dbc95c.js"
+    "static/css/main.892a7a66.css",
+    "static/js/main.f806ebbe.js"
   ]
 }
