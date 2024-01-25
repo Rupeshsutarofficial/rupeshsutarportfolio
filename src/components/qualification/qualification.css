@@ -86,6 +86,7 @@
   @media screen and (max-width: 576px) {
     .qualification__sections{
         grid-template-columns: initial;
+        margin-left: 1.7rem;
     }
     .qualification__button{
         margin: 0 var(--mb-0-75);

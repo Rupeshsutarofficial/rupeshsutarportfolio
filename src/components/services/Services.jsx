@@ -12,7 +12,7 @@ const Services = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <i className="uil uil-web-grid services__icon"></i>
+            <i className="bx bx-code-alt services__icon"></i>
             <h3 className="services__title">
             Full Stack Developer
             </h3>
@@ -72,7 +72,7 @@ const Services = () => {
         </div>
         <div className="services__content">
           <div>
-            <i className="uil uil-video services__icon"></i>
+            <i className="bx bxs-video services__icon"></i>
             <h3 className="services__title">
             Creative Video Editor
             </h3>
@@ -128,7 +128,7 @@ const Services = () => {
         </div>
         <div className="services__content">
           <div>
-            <i className="uil uil-brush-alt services__icon"></i>
+            <i className="bx bxs-landscape services__icon"></i>
             <h3 className="services__title">
             Graphics Designer
             </h3>
@@ -176,6 +176,62 @@ const Services = () => {
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                   Engaging Viewers.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="services__content">
+          <div>
+            <i className="bx bxl-youtube services__icon"></i>
+            <h3 className="services__title youtube-service">
+           
+            </h3>
+          </div>
+          <span onClick={() => toggleTab(4)} className="services__button ">
+            View More
+            <i className="uil uil-arrow-right services__button-icon"></i>
+          </span>
+          <div
+            className={
+              toggleState === 4
+                ? "services__modal active-modal"
+                : "services__modal"
+            }
+          >
+            <div className="services__modal-content">
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times services__modal-close"
+              ></i>
+              <h3 className="services__modal-title">Youtube Account Manager</h3>
+              <p className="services__modal-description">
+              As your YouTube account manager, I boost your channel's success with top-notch SEO, captivating video editing, and click-worthy thumbnail designs. Elevate your YouTube presence and transform your channel into a hub for engaging content and increased visibility.
+              </p>
+              <ul className="services__modal-services grid">
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                  Stay updated on YouTube's video display changes.
+                  </p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                  Check analytics often to know what viewers enjoy.
+                  </p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                  Modify video details using analytics findings.
+                  </p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                   Enhance video ranking with SEO, editing, and eye-catching thumbnails.
                   </p>
                 </li>
               </ul>
