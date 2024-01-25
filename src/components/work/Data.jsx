@@ -9,6 +9,13 @@ import Work8 from "../../assets/work8.jpg"
 import Work9 from "../../assets/work9.png"
 import Work10 from "../../assets/work9.png"
 import Teslabot from "../../assets/teslabot.jpg"
+import Work11 from "../../assets/work11.jpg"
+import Work12 from "../../assets/work12.jpg"
+import Work13 from "../../assets/work13.jpg"
+import Work14 from "../../assets/work14.jpg"
+import Work15 from "../../assets/work15.jpg"
+import Work16 from "../../assets/work16.jpg"
+import Work17 from "../../assets/work17.jpg"
 
 export const projectsData = [
     {
@@ -91,7 +98,58 @@ export const projectsData = [
       demoLink:Teslabot,
       figmaLink:'https://www.figma.com/file/F1KKkZIvujtXUvmEyZQtOt/Tesla-Bot?type=design&node-id=1%3A2&mode=design&t=yI7njFsWpfDJQ4oO-1'
     },
-   
+    {
+      id: 11,
+      image: Work11,
+      title: "Yogita X Suraj",
+      category: "Video Editing",
+      watchNow: 'https://www.youtube.com/watch?v=mhmLwOpwlr4&ab_channel=EditechMarathi',
+      viewThumbnail:Work11
+    },
+    {
+      id: 12,
+      image: Work12,
+      title: "Sakshi X Sanket",
+      category: "Video Editing",
+      watchNow: 'https://www.youtube.com/watch?v=Pq4_-k9SQf0&ab_channel=EditechMarathi',
+      viewThumbnail:Work12
+    },
+    {
+      id: 13,
+      image: Work13,
+      title: "Sheetal X Aditya",
+      category: "Video Editing",
+      watchNow: 'https://www.youtube.com/watch?v=SsQ0DBXJZFQ&ab_channel=EditechMarathi',
+      viewThumbnail:Work13
+    },
+    {
+      id: 14,
+      image: Work15,
+      title: "Education Thumbnail",
+      category: "Graphics Design",
+      viewThumbnail:Work15
+    },
+    {
+      id: 15,
+      image: Work14,
+      title: "Education Thumbnail",
+      category: "Graphics Design",
+      viewThumbnail:Work14
+    },
+    {
+      id: 16,
+      image: Work16,
+      title: "Education Thumbnail",
+      category: "Graphics Design",
+      viewThumbnail:Work16
+    },
+    {
+      id: 17,
+      image: Work17,
+      title: "Education Thumbnail",
+      category: "Graphics Design",
+      viewThumbnail:Work17
+    },
   ];
   
   export const projectsNav = [
@@ -104,7 +162,12 @@ export const projectsData = [
     {
         name:'Figma',
     },
-    // {
-    //     name:'Video Editing',
-    // },
+    {
+      name:'Video Editing',
+  },
+    {
+      name:'Graphics Design',
+  },
+    
+    
   ]

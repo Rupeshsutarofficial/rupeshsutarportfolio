@@ -1,6 +1,7 @@
 .work__filters{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     column-gap: 0.75rem;
     margin-bottom: var(--mb-2);
@@ -110,7 +111,6 @@
     .work__container{
         grid-template-columns: max-content;
     }
-   
   }
   
   @media screen and (max-width: 576px) {
@@ -122,7 +122,8 @@
     }
     .work__filters{
         column-gap: 0.19rem;
-        font-size: 0.9rem;
+        row-gap: 0.5rem;
+        font-size: 1rem;
     }
   }
   
@@ -133,6 +134,5 @@
     }
     .work__filters{
         column-gap: 0.25rem;
-        
     }
   }

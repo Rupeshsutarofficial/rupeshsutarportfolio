@@ -35,7 +35,7 @@ const Services = () => {
               ></i>
               <h3 className="services__modal-title">Full Stack Developer</h3>
               <p className="services__modal-description">
-              Building on a Strong Foundation: Crafting Quality Solutions Through Fresh Insights and 6 Months of Internship Experience
+              Building on a Strong Foundation: Crafting Quality Solutions Through Fresh Insights and 8 Months of Internship Experience
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">

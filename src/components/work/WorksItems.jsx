@@ -30,14 +30,50 @@ const WorksItems = ({ item }) => {
           </a>
         )}
 
-        <a
-          href={item.demoLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="work__button "
-        >
-          Live Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
-        </a>
+        {(item.category === "Web" || item.category === "Figma") && (
+          <a
+            href={item.demoLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="work__button "
+          >
+            Live Demo
+            <i className="bx bx-right-arrow-alt work__button-icon"></i>
+          </a>
+        )}
+        {item.category === "Video Editing" && (
+          <>
+            <a
+              href={item.viewThumbnail}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="work__button"
+            >
+              <i className="bx bxs-image-alt work__button-icon2"></i>View Thumbnail
+              <i className="bx bx-right-arrow-alt work__button-icon"></i>
+            </a>
+            <a
+              href={item.watchNow}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="work__button"
+            >
+              <i className="bx bxs-video work__button-icon2"></i>Watch Now
+              <i className="bx bx-right-arrow-alt work__button-icon"></i>
+            </a>
+          </>
+        )}
+        {item.category === "Graphics Design" && (
+            <a
+              href={item.viewThumbnail}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="work__button"
+            >
+              <i className="bx bxs-image-alt work__button-icon2"></i>View Thumbnail
+              <i className="bx bx-right-arrow-alt work__button-icon"></i>
+            </a>
+            )}
       </div>
     </div>
   );
