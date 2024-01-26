@@ -9,7 +9,14 @@ const Otherskills = () => {
         <div className="skills__data">
         <i class='bx bxs-video'></i>
           <div>
-            <h3 className="skills__name">Video Editing</h3>
+            <h3 className="skills__name">Youtube Video Editing</h3>
+            <span className="skills__level">Advanced</span>
+          </div>
+        </div>
+        <div className="skills__data">
+        <i class='bx bxs-video'></i>
+          <div>
+            <h3 className="skills__name">Cinematic video Editing</h3>
             <span className="skills__level">Advanced</span>
           </div>
         </div>
@@ -23,7 +30,7 @@ const Otherskills = () => {
         <div className="skills__data">
         <i class='bx bxs-color' ></i>
           <div>
-            <h3 className="skills__name">Thumbnail Desginer</h3>
+            <h3 className="skills__name">Youtube Thumbnail Desginer</h3>
             <span className="skills__level">Advanced</span>
           </div>
         </div>
@@ -31,6 +38,13 @@ const Otherskills = () => {
         <i class='bx bxl-youtube' ></i>
           <div>
             <h3 className="skills__name">Youtube Account Manager</h3>
+            <span className="skills__level">Advanced</span>
+          </div>
+        </div>
+        <div className="skills__data">
+        <i class='bx bxl-youtube' ></i>
+          <div>
+            <h3 className="skills__name">Youtube SEO & Tags</h3>
             <span className="skills__level">Advanced</span>
           </div>
         </div>
