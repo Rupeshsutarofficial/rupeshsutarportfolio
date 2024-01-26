@@ -3,6 +3,7 @@ import "./skills.css"
 import Frontend from "./Frontend"
 import Backend from "./Backend"
 import Otherskills from './Otherskills'
+import Tools from './Tools'
 
 const Skills = () => {
   return (
@@ -13,6 +14,7 @@ const Skills = () => {
             <Frontend/>
             <Backend/>
             <Otherskills/>
+            <Tools/>
         </div>
 
     </section>

@@ -1,5 +1,5 @@
 .skills_container{
-    grid-template-columns: repeat(3,350px);
+    grid-template-columns: repeat(2,330px);
     column-gap: 3rem;
     justify-content: center;
 }
@@ -19,6 +19,12 @@
     display: flex;
     justify-content: center;
     column-gap: 2.5rem;
+}
+.tool_application{
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5rem;
+    margin-left: -2.9rem;
 }
 .skills__group{
     display: grid;

@@ -13,7 +13,6 @@ const Otherskills = () => {
             <span className="skills__level">Advanced</span>
           </div>
         </div>
-
         <div className="skills__data">
           <i class='bx bxs-palette'></i>
           <div>
@@ -21,11 +20,17 @@ const Otherskills = () => {
             <span className="skills__level">Intermediate</span>
           </div>
         </div>
-
         <div className="skills__data">
-         <i class='bx bxl-youtube'></i>
+        <i class='bx bxs-color' ></i>
           <div>
             <h3 className="skills__name">Thumbnail Desginer</h3>
+            <span className="skills__level">Advanced</span>
+          </div>
+        </div>
+        <div className="skills__data">
+        <i class='bx bxl-youtube' ></i>
+          <div>
+            <h3 className="skills__name">Youtube Account Manager</h3>
             <span className="skills__level">Advanced</span>
           </div>
         </div>

@@ -7,7 +7,7 @@ const Backend = () => {
     <div className="skills__box">
       <div className="skills__group">
         <div className="skills__data">
-          <i className="bx bx-badge-check"></i>
+          <i className="bx bxl-java"></i>
           <div>
             <h3 className="skills__name">Java</h3>
             <span className="skills__level">Intermediate</span>
@@ -15,7 +15,7 @@ const Backend = () => {
         </div>
 
         <div className="skills__data">
-          <i className="bx bx-badge-check"></i>
+          <i className="bx bxl-nodejs"></i>
           <div>
             <h3 className="skills__name">NodeJS</h3>
             <span className="skills__level">Intermediate</span>
@@ -23,9 +23,16 @@ const Backend = () => {
         </div>
 
         <div className="skills__data">
-          <i className="bx bx-badge-check"></i>
+          <i className="bx bxl-python"></i>
           <div>
             <h3 className="skills__name">Python</h3>
+            <span className="skills__level">Intermediate</span>
+          </div>
+        </div>
+        <div className="skills__data">
+          <i className="bx bxl-spring-boot"></i>
+          <div>
+            <h3 className="skills__name">springboot</h3>
             <span className="skills__level">Intermediate</span>
           </div>
         </div>
@@ -33,7 +40,7 @@ const Backend = () => {
 
       <div className="skills__group">
         <div className="skills__data">
-          <i className="bx bx-badge-check"></i>
+          <i className="bx bxs-data"></i>
           <div>
             <h3 className="skills__name">MySQL</h3>
             <span className="skills__level">Intermediate</span>
@@ -41,7 +48,7 @@ const Backend = () => {
         </div>
 
         <div className="skills__data">
-          <i className="bx bx-badge-check"></i>
+        <i class="bx bx-badge-check"></i>
           <div>
             <h3 className="skills__name">MongoDB</h3>
             <span className="skills__level">Intermediate</span>
@@ -52,6 +59,13 @@ const Backend = () => {
           <i className="bx bx-badge-check"></i>
           <div>
             <h3 className="skills__name">ExpressJS</h3>
+            <span className="skills__level">Intermediate</span>
+          </div>
+        </div>
+        <div className="skills__data">
+          <i className="bx bx-badge-check"></i>
+          <div>
+            <h3 className="skills__name">Hibernate</h3>
             <span className="skills__level">Intermediate</span>
           </div>
         </div>
