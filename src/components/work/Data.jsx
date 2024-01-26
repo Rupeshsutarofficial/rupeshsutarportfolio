@@ -127,28 +127,32 @@ export const projectsData = [
       image: Work15,
       title: "Education Thumbnail",
       category: "Graphics Design",
-      viewThumbnail:Work15
+      viewThumbnail:Work15,
+      downThumbnail:Work15
     },
     {
       id: 15,
       image: Work14,
       title: "Education Thumbnail",
       category: "Graphics Design",
-      viewThumbnail:Work14
+      viewThumbnail:Work14,
+      downThumbnail:Work14
     },
     {
       id: 16,
       image: Work16,
       title: "Education Thumbnail",
       category: "Graphics Design",
-      viewThumbnail:Work16
+      viewThumbnail:Work16,
+      downThumbnail:Work16
     },
     {
       id: 17,
       image: Work17,
       title: "Education Thumbnail",
       category: "Graphics Design",
-      viewThumbnail:Work17
+      viewThumbnail:Work17,
+      downThumbnail:Work17
     },
   ];
   

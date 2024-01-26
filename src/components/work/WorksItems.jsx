@@ -64,6 +64,7 @@ const WorksItems = ({ item }) => {
           </>
         )}
         {item.category === "Graphics Design" && (
+          <>
             <a
               href={item.viewThumbnail}
               target="_blank"
@@ -71,9 +72,21 @@ const WorksItems = ({ item }) => {
               className="work__button"
             >
               <i className="bx bxs-image-alt work__button-icon2"></i>View Thumbnail
-              <i className="bx bx-right-arrow-alt work__button-icon"></i>
+              {/* <i className="bx bx-right-arrow-alt work__button-icon"></i> */}
             </a>
-            )}
+            <a
+              href={item.downThumbnail}
+              target="_blank"
+              download="thumbnail"
+              rel="noopener noreferrer"
+              className="work__button"
+            >
+              <i className="bx bxs-download work__button-icon2"></i>Download Now
+              {/* <i className="bx bx-right-arrow-alt work__button-icon"></i> */}
+            </a>
+          </>
+        )}
+        
       </div>
     </div>
   );

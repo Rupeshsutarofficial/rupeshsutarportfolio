@@ -17,7 +17,7 @@ const About = () => {
                 <p className="about__description">
                 I am a full-stack developer specializing in both front-end and back-end development. Currently, I'm gaining valuable experience through an internship where I get to apply my skills across the entire tech stack. I've been passionate about crafting seamless user interfaces and robust functionalities, and my experience in web development has allowed me to work on diverse projects and cater to various client needs. <br /> When I'm not coding , you'll find me binge-watching a Netflix series or playing video games and video editing 
                 </p>
-                <a download="" href={CV} className="button button--flex">Download CV
+                <a download="Rupeshsutarresume" href={CV} className="button button--flex">Download CV
                 <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
