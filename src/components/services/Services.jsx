@@ -17,7 +17,7 @@ const Services = () => {
             Full Stack Developer
             </h3>
           </div>
-          <span className="services__button " onClick={() => toggleTab(1)}>
+          <span className="services__button magnet-target" onClick={() => toggleTab(1)}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
@@ -77,7 +77,7 @@ const Services = () => {
             Creative Video Editor
             </h3>
           </div>
-          <span onClick={() => toggleTab(2)} className="services__button ">
+          <span onClick={() => toggleTab(2)} className="services__button magnet-target">
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
@@ -133,7 +133,7 @@ const Services = () => {
             Graphics Designer
             </h3>
           </div>
-          <span onClick={() => toggleTab(3)} className="services__button ">
+          <span onClick={() => toggleTab(3)} className="services__button magnet-target">
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
@@ -189,7 +189,7 @@ const Services = () => {
            
             </h3>
           </div>
-          <span onClick={() => toggleTab(4)} className="services__button ">
+          <span onClick={() => toggleTab(4)} className="services__button magnet-target">
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
