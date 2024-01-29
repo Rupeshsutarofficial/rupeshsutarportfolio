@@ -1,8 +1,22 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 const Contact = () => {
   const form = useRef();
+  const notify = () => toast("Messege send",{
+    position: "bottom-right",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "dark",
+    });
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -97,7 +111,7 @@ const Contact = () => {
                 placeholder="Write your project"
               ></textarea>
             </div>
-            <button className="button button--flex " style={{ marginLeft: '18%' }}>
+            <button onClick={notify} className="button button--flex " style={{ marginLeft: '18%' }}>
               Send Message
               <svg
                 class="button__icon"
@@ -120,6 +134,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <ToastContainer />
     </section>
   );
 };
