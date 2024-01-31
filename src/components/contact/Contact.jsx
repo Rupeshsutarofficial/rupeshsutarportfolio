@@ -6,6 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 const Contact = () => {
+  const isMobile = window.innerWidth <= 768;
   const form = useRef();
   const notify = () => toast("Messege send",{
     position: "bottom-right",
@@ -44,7 +45,7 @@ const Contact = () => {
               <h3 className="contact__card-title">Gmail</h3>
               <span className="contact__card-data">rupeshsutarofficial@gmail.com</span>
 
-              <a href="mailto:rupeshsutarofficial@gmail.com" className="contact__button magnet-target">
+              <a href="mailto:rupeshsutarofficial@gmail.com" className={`contact__button ${!isMobile ? 'magnet-target' : ''}`}>
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -55,7 +56,7 @@ const Contact = () => {
               <h3 className="contact__card-title">Instagram</h3>
               <span className="contact__card-data">@mr.rupeshsutar</span>
 
-              <a href="https://www.instagram.com/mr.rupeshsutar/" className="contact__button magnet-target">
+              <a href="https://www.instagram.com/mr.rupeshsutar/" className={`contact__button ${!isMobile ? 'magnet-target' : ''}`}>
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -66,7 +67,7 @@ const Contact = () => {
               <h3 className="contact__card-title">Linkedin</h3>
               <span className="contact__card-data">@rupeshsutarofficial</span>
 
-              <a href="https://www.linkedin.com/in/rupeshsutarofficial/" className="contact__button magnet-target">
+              <a href="https://www.linkedin.com/in/rupeshsutarofficial/" className={`contact__button ${!isMobile ? 'magnet-target' : ''}`}>
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>

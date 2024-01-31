@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./services.css";
 const Services = () => {
+  const isMobile = window.innerWidth <= 768;
   const [toggleState, settoggleState] = useState(0);
   const toggleTab = (index) => {
     settoggleState(index);
@@ -17,7 +18,7 @@ const Services = () => {
             Full Stack Developer
             </h3>
           </div>
-          <span className="services__button magnet-target" onClick={() => toggleTab(1)}>
+          <span className={`services__button ${!isMobile ? 'magnet-target' : ''}`} onClick={() => toggleTab(1)}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
@@ -77,7 +78,7 @@ const Services = () => {
             Creative Video Editor
             </h3>
           </div>
-          <span onClick={() => toggleTab(2)} className="services__button magnet-target">
+          <span onClick={() => toggleTab(2)} className={`services__button ${!isMobile ? 'magnet-target' : ''}`}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
@@ -133,7 +134,7 @@ const Services = () => {
             Graphics Designer
             </h3>
           </div>
-          <span onClick={() => toggleTab(3)} className="services__button magnet-target">
+          <span onClick={() => toggleTab(3)} className={`services__button ${!isMobile ? 'magnet-target' : ''}`}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
@@ -189,7 +190,7 @@ const Services = () => {
            
             </h3>
           </div>
-          <span onClick={() => toggleTab(4)} className="services__button magnet-target">
+          <span onClick={() => toggleTab(4)} className={`services__button ${!isMobile ? 'magnet-target' : ''}`}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
