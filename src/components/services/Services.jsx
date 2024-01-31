@@ -31,7 +31,7 @@ const Services = () => {
             <div className="services__modal-content">
               <i
                 onClick={() => toggleTab(0)}
-                className="uil uil-times services__modal-close"
+                className="uil uil-times services__modal-close magnet-target"
               ></i>
               <h3 className="services__modal-title">Full Stack Developer</h3>
               <p className="services__modal-description">
@@ -91,7 +91,7 @@ const Services = () => {
             <div className="services__modal-content">
               <i
                 onClick={() => toggleTab(0)}
-                className="uil uil-times services__modal-close"
+                className="uil uil-times services__modal-close magnet-target"
               ></i>
               <h3 className="services__modal-title">Creative Video Editor</h3>
               <p className="services__modal-description">
@@ -147,7 +147,7 @@ const Services = () => {
             <div className="services__modal-content">
               <i
                 onClick={() => toggleTab(0)}
-                className="uil uil-times services__modal-close"
+                className="uil uil-times services__modal-close magnet-target"
               ></i>
               <h3 className="services__modal-title">Graphics Designer</h3>
               <p className="services__modal-description">
@@ -203,7 +203,7 @@ const Services = () => {
             <div className="services__modal-content">
               <i
                 onClick={() => toggleTab(0)}
-                className="uil uil-times services__modal-close"
+                className="uil uil-times services__modal-close magnet-target"
               ></i>
               <h3 className="services__modal-title">Youtube Account Manager</h3>
               <p className="services__modal-description">

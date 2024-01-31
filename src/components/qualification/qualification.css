@@ -27,6 +27,7 @@
     display: grid;
     grid-template-columns: 0.5fr;
     justify-content: center;
+    margin-left: 4rem;
 }
 .qualification__content{
     display: none;
