@@ -16,6 +16,7 @@ import Work14 from "../../assets/work14.jpg"
 import Work15 from "../../assets/work15.jpg"
 import Work16 from "../../assets/work16.jpg"
 import Work17 from "../../assets/work17.jpg"
+import Work18 from "../../assets/work18.png"
 
 export const projectsData = [
     {
@@ -28,11 +29,11 @@ export const projectsData = [
     },
     {
       id: 2,
-      image: Work2,
-      title: "Fanta Animated Website",
+      image: Work18,
+      title: "Ochi.Design Clone",
       category: "Web",
-      demoLink: 'https://rupeshsutarofficial.github.io/Fanta/',
-      githubLink:'https://github.com/Rupeshsutarofficial/Fanta'
+      demoLink: 'https://ochidesignn.netlify.app/',
+      githubLink:'https://github.com/Rupeshsutarofficial/Ochi.design-Clone'
     },
     {
       id: 3,
@@ -153,6 +154,14 @@ export const projectsData = [
       category: "Graphics Design",
       viewThumbnail:Work17,
       downThumbnail:Work17
+    },
+    {
+      id: 18,
+      image: Work2,
+      title: "Fanta Animated Website",
+      category: "Web",
+      demoLink: 'https://rupeshsutarofficial.github.io/Fanta/',
+      githubLink:'https://github.com/Rupeshsutarofficial/Fanta'
     },
   ];
   
