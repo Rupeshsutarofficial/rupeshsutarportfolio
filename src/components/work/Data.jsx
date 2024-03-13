@@ -104,7 +104,7 @@ export const projectsData = [
       image: Work11,
       title: "Yogita X Suraj",
       category: "Video Editing",
-      watchNow: 'https://www.youtube.com/watch?v=mhmLwOpwlr4&ab_channel=EditechMarathi',
+      watchNow: 'https://youtu.be/3QZvDjI-nEI?si=G5pLOdMEJFCPWEpO',
       viewThumbnail:Work11
     },
     {
@@ -112,7 +112,7 @@ export const projectsData = [
       image: Work12,
       title: "Sakshi X Sanket",
       category: "Video Editing",
-      watchNow: 'https://www.youtube.com/watch?v=Pq4_-k9SQf0&ab_channel=EditechMarathi',
+      watchNow: 'https://youtu.be/NKMffojLHVk?si=BcYCUS3T9S5_zIpX',
       viewThumbnail:Work12
     },
     {
@@ -120,7 +120,7 @@ export const projectsData = [
       image: Work13,
       title: "Sheetal X Aditya",
       category: "Video Editing",
-      watchNow: 'https://www.youtube.com/watch?v=SsQ0DBXJZFQ&ab_channel=EditechMarathi',
+      watchNow: 'https://youtu.be/8B8ImJzp3XY?si=XDiS__SHg6KaWkws',
       viewThumbnail:Work13
     },
     {
