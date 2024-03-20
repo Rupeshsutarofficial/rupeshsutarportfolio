@@ -92,13 +92,13 @@ export const projectsData = [
       figmaLink:'https://www.figma.com/file/iHdeo4nE2oqfYeRvwsTmZV/Modern-Web-Design?type=design&node-id=5%3A9&mode=design&t=p889OwWrD9Fdi4VM-1'
     },
     
-    {
-      image: Work10,
-      title: "Tesla Bot • Optimus-Gen 2 Figma",
-      category: "Figma",
-      demoLink:Teslabot,
-      figmaLink:'https://www.figma.com/file/F1KKkZIvujtXUvmEyZQtOt/Tesla-Bot?type=design&node-id=1%3A2&mode=design&t=yI7njFsWpfDJQ4oO-1'
-    },
+    // {
+    //   image: Work10,
+    //   title: "Tesla Bot • Optimus-Gen 2 Figma",
+    //   category: "Figma",
+    //   demoLink:Teslabot,
+    //   figmaLink:'https://www.figma.com/file/F1KKkZIvujtXUvmEyZQtOt/Tesla-Bot?type=design&node-id=1%3A2&mode=design&t=yI7njFsWpfDJQ4oO-1'
+    // },
     {
       image: Work19,
       title: "Snehal X Pratik",
