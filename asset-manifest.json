@@ -1,11 +1,15 @@
 {
   "files": {
     "main.css": "/rupeshsutarportfolio/static/css/main.d34c9d14.css",
-    "main.js": "/rupeshsutarportfolio/static/js/main.5a61562c.js",
+    "main.js": "/rupeshsutarportfolio/static/js/main.b3d40e27.js",
     "static/media/work12.jpg": "/rupeshsutarportfolio/static/media/work12.b28b48ea395131730544.jpg",
     "static/media/work13.jpg": "/rupeshsutarportfolio/static/media/work13.18ea46c877e247824d2e.jpg",
     "static/media/work11.jpg": "/rupeshsutarportfolio/static/media/work11.cf7062b6fa4d0e135458.jpg",
     "static/media/teslabot.jpg": "/rupeshsutarportfolio/static/media/teslabot.05bc0814cdf3fe4cdf1f.jpg",
+    "static/media/work21.jpg": "/rupeshsutarportfolio/static/media/work21.47170502d93c6ff7149b.jpg",
+    "static/media/Preview1.jpg": "/rupeshsutarportfolio/static/media/Preview1.757120e69446969a2710.jpg",
+    "static/media/Preview.jpg": "/rupeshsutarportfolio/static/media/Preview.bba782c332116262dba5.jpg",
+    "static/media/work20.jpg": "/rupeshsutarportfolio/static/media/work20.5168a8c074b39821c409.jpg",
     "static/media/RupeshSutarResume.pdf": "/rupeshsutarportfolio/static/media/RupeshSutarResume.41ad401e928fb6069f10.pdf",
     "static/media/work17.jpg": "/rupeshsutarportfolio/static/media/work17.8d09f2b12160ce6a62a3.jpg",
     "static/media/work7.jpg": "/rupeshsutarportfolio/static/media/work7.2a4d947dcef7fb5a8591.jpg",
@@ -29,10 +33,10 @@
     "static/media/vertex.glsl": "/rupeshsutarportfolio/static/media/vertex.d78b86e2e4667824ec92.glsl",
     "index.html": "/rupeshsutarportfolio/index.html",
     "main.d34c9d14.css.map": "/rupeshsutarportfolio/static/css/main.d34c9d14.css.map",
-    "main.5a61562c.js.map": "/rupeshsutarportfolio/static/js/main.5a61562c.js.map"
+    "main.b3d40e27.js.map": "/rupeshsutarportfolio/static/js/main.b3d40e27.js.map"
   },
   "entrypoints": [
     "static/css/main.d34c9d14.css",
-    "static/js/main.5a61562c.js"
+    "static/js/main.b3d40e27.js"
   ]
 }
