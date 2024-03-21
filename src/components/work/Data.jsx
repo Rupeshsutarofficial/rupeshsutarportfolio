@@ -18,6 +18,10 @@ import Work16 from "../../assets/work16.jpg";
 import Work17 from "../../assets/work17.jpg";
 import Work18 from "../../assets/work18.png";
 import Work19 from "../../assets/work19.jpg";
+import Work20 from "../../assets/work20.jpg";
+import Work21 from "../../assets/work21.jpg";
+import Preview from "../../assets/Preview.jpg";
+import Preview1 from "../../assets/Preview1.jpg";
 
 
 export const projectsData = [
@@ -154,6 +158,20 @@ export const projectsData = [
       category: "Graphics Design",
       viewThumbnail:Work17,
       downThumbnail:Work17
+    },
+    {
+      image: Work20,
+      title: "Fukra Insaan Thumbnail",
+      category: "Graphics Design",
+      viewThumbnail:Preview1,
+      downThumbnail:Work20
+    },
+    {
+      image: Work21,
+      title: "Fukra Insaan Thumbnail",
+      category: "Graphics Design",
+      viewThumbnail:Preview,
+      downThumbnail:Work21
     },
     
 ];
