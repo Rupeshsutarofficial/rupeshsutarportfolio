@@ -6,31 +6,72 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 const Contact = () => {
-  const isMobile = window.innerWidth <= 768;
-  const form = useRef();
-  const notify = () => toast("Messege send",{
-    position: "bottom-right",
-    autoClose: 5000,
-    hideProgressBar: false,
-    closeOnClick: true,
-    pauseOnHover: true,
-    draggable: true,
-    progress: undefined,
-    theme: "dark",
+const isMobile = window.innerWidth <= 768; // Correct: Detects mobile view
+const form = useRef(); // Correct: Uses React ref to target the form element
+
+const sendEmail = (e) => {
+  e.preventDefault(); // Prevents default form submission behavior
+
+  // Form fields are correctly accessed and validated
+  const name = form.current["name"].value.trim();
+  const email = form.current["email"].value.trim();
+  const project = form.current["project"].value.trim();
+
+  if (!name || !email || !project) {
+    // Shows an error toast for empty fields
+    toast.error("Please fill out all fields!", {
+      position: "bottom-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    });
+    return; // Exits if validation fails
+  }
+
+  // Email sending logic
+  emailjs
+    .sendForm(
+      "service_iqwnfes",
+      "template_2cqsgmh",
+      form.current,
+      "Aiyu8pNkTPKgnpsbc"
+    )
+    .then(() => {
+      // Shows a success toast upon email sending
+      toast.success("Message sent successfully!", {
+        position: "bottom-right",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
+    })
+    .catch((error) => {
+      // Shows an error toast for failures
+      toast.error("Failed to send message. Please try again later.", {
+        position: "bottom-right",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
     });
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // Resets the form after sending email
+  e.target.reset();
+};
 
-    emailjs
-      .sendForm(
-        "service_iqwnfes",
-        "template_2cqsgmh",
-        form.current,
-        "Aiyu8pNkTPKgnpsbc"
-      )
-     e.target.reset()
-  };
+
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Get in touch</h2>
@@ -112,7 +153,7 @@ const Contact = () => {
                 placeholder="Write your project"
               ></textarea>
             </div>
-            <button onClick={notify} className="button button--flex" style={{ marginLeft: '18%' }}>
+            <button className="button button--flex" style={{ marginLeft: '18%' }}>
               Send Message
               <svg
                 class="button__icon"

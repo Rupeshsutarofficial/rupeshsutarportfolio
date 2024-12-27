@@ -7,6 +7,8 @@ import Work6 from "../../assets/work6.jpg";
 import Work7 from "../../assets/work7.jpg";
 import Work8 from "../../assets/work8.jpg";
 import Work9 from "../../assets/work9.png";
+import Work22 from "../../assets/work22.jpg";
+import Worki from "../../assets/work22.1.jpg";
 // import Work11 from "../../assets/work11.jpg";
 // import Work12 from "../../assets/work12.jpg";
 // import Work13 from "../../assets/work13.jpg";
@@ -95,6 +97,14 @@ export const projectsData = [
     demoLink: Work8,
     figmaLink:
       "https://www.figma.com/file/iHdeo4nE2oqfYeRvwsTmZV/Modern-Web-Design?type=design&node-id=5%3A9&mode=design&t=p889OwWrD9Fdi4VM-1",
+  },
+  {
+    image: Work22,
+    title: "Interior Website",
+    category: "Figma",
+    demoLink: Worki,
+    figmaLink:
+      "https://www.figma.com/design/8VgzQYC3KMRG3tzGPHdKOt/Interior-Design?node-id=2-2&t=vwaYBV5arsmj059C-1",
   },
 
   // {
