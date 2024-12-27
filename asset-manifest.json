@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/rupeshsutarportfolio/static/css/main.090bb2fa.css",
-    "main.js": "/rupeshsutarportfolio/static/js/main.c8b2b227.js",
+    "main.js": "/rupeshsutarportfolio/static/js/main.b05bf885.js",
+    "static/media/work22.1.jpg": "/rupeshsutarportfolio/static/media/work22.1.680405fac7278b23d2e6.jpg",
     "static/media/RupeshSutarResume.pdf": "/rupeshsutarportfolio/static/media/RupeshSutarResume.41ad401e928fb6069f10.pdf",
     "static/media/work7.jpg": "/rupeshsutarportfolio/static/media/work7.2a4d947dcef7fb5a8591.jpg",
+    "static/media/work22.jpg": "/rupeshsutarportfolio/static/media/work22.fb54a5af1cc681b57041.jpg",
     "static/media/work9.png": "/rupeshsutarportfolio/static/media/work9.5e0aca0206483f8a0c1c.png",
     "static/media/work1.jpg": "/rupeshsutarportfolio/static/media/work1.4953b291af685b3aca1a.jpg",
     "static/media/work8.jpg": "/rupeshsutarportfolio/static/media/work8.48ccd3fdd8d7d47d0a5e.jpg",
@@ -20,10 +22,10 @@
     "static/media/vertex.glsl": "/rupeshsutarportfolio/static/media/vertex.d78b86e2e4667824ec92.glsl",
     "index.html": "/rupeshsutarportfolio/index.html",
     "main.090bb2fa.css.map": "/rupeshsutarportfolio/static/css/main.090bb2fa.css.map",
-    "main.c8b2b227.js.map": "/rupeshsutarportfolio/static/js/main.c8b2b227.js.map"
+    "main.b05bf885.js.map": "/rupeshsutarportfolio/static/js/main.b05bf885.js.map"
   },
   "entrypoints": [
     "static/css/main.090bb2fa.css",
-    "static/js/main.c8b2b227.js"
+    "static/js/main.b05bf885.js"
   ]
 }
