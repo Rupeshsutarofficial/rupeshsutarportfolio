@@ -13,7 +13,7 @@ const Social = () => {
         <i className='uil uil-instagram-alt'></i>
       </a>
       <a
-        href='https://www.linkedin.com/in/rupeshsutarofficial/'
+        href='https://www.linkedin.com/in/rupeshsutarofficial'
         className={`home__social-icon ${!isMobile ? "magnet-target" : ""}`}
         target='_blank'
         rel='noopener noreferrer'
